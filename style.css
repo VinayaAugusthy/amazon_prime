@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: auto;
+    overflow-x: hidden;
+}
+
+.head {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.head-1 {
+    display: flex;
+}
+
+select {
+    background-color: inherit;
+    color: grey;
+    border-color: black;
+    font-size: large;
+}
+
+.menu {
+    display: flex;
+    text-align: center;
+    /* padding-inline: 30px; */
+    background-color: black;
+}
+
+.menu-opt1 {
+    padding-inline: 30px;
+    display: flex;
+}
+
+.menu-opt2 {
+    padding-inline: 30px;
+    display: flex;
+
+}
+
+.menu-opt3 {
+    padding-inline: 30px;
+    display: flex;
+
+}
+
+.menu-opt4 {
+    padding-inline: 30px;
+    display: flex;
+
+}
+
+.logo-img {
+    /* padding-top: auto; */
+    height: auto;
+    width: 96px;
+    margin-left: 150px;
+    display: flex;
+}
+
+.head-2 {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    width: 100;
+    height: 100;
+    padding-left: 50px;
+    padding-inline: 30px;
+
+}
+
+.search-btn {
+    background-color: black;
+    display: flex;
+    image-orientation: inherit;
+}
+
+.try-btn {
+    background-color: black;
+    color: grey;
+    display: flex;
+    padding-inline: 30px;
+    border: none;
+
+}
+
+.profile-icon {
+    padding-inline: 30px;
+    width: 30px;
+    display: flex;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+}
+
+.body-bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.body-head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.body-text {
+    display: block;
+    color: white;
+    position: relative;
+    font-weight: 100;
+    line-height: 3.61rem;
+    font-size: 1.5rem;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.body-text1 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    display: block;
+    max-width: 50%;
+    padding-top: 20px;
+}
+
+.join-btn {
+    background-color: #0f79af;
+    color: white;
+    height: 48px;
+    width: 280px;
+    border: none;
+    padding-top: 14px;
+    padding-right: 20px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    width: max-content;
+    border-radius: 4px;
+}
+@media only screen and (max-width: 600px) {
+    .head-1 {
+        margin-left: 5px;
+    }
+    .head-1 {
+        margin-left: 5px;
+    }
+
+    .logo-img {
+        height: 25px;
+    }
+
+    .menu select {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .search {
+        margin-right: 5px;
+    }
+
+    .search-icon {
+        width: 15px;
+    }
+
+    .try-btn {
+        padding: 5px 8px;
+    }
+
+    .body-head h1 {
+        font-size: 20px;
+    }
+
+    .body-text1 p {
+        font-size: 14px;
+    }
+
+    .join-btn {
+        padding: 8px 15px;
+        margin-top: 15px;
+    }
+}
